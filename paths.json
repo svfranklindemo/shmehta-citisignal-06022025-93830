@@ -1,19 +1,27 @@
 {
+  "mappings": [
+    "/content/shmehta/shmehta-t-citi/:/",
+    "/content/shmehta/shmehta-t-citi/metadata.json:/metadata.json",
+    "/content/shmehta/shmehta-t-citi/redirects.json:/redirects.json"
+  ]
+}
+
+{
     "mappings": [
-      "/content/citisignal-one/:/",
-      "/content/citisignal-one/configuration:/.helix/config.json",
-      "/content/citisignal-one/metadata:/metadata.json",
-      "/content/citisignal-one/configs:/configs.json",
-      "/content/citisignal-one/configs-stage:/configs-stage.json",
-      "/content/citisignal-one/configs-dev:/configs-dev.json",
-      "/content/citisignal-one/redirects:/redirects.json",
-      "/content/citisignal-one/placeholders:/placeholders.json",
-      "/content/citisignal-one/products/recommended-products:/products/recommended-products.json",
-      "/content/citisignal-one/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/citisignal/images/products/:/images/products/"
+      "/content/shmehta/shmehta-t-citi/:/",
+      "/content/shmehta/shmehta-t-citi/configuration:/.helix/config.json",
+      "/content/shmehta/shmehta-t-citi/metadata:/metadata.json",
+      "/content/shmehta/shmehta-t-citi/configs:/configs.json",
+      "/content/shmehta/shmehta-t-citi/configs-stage:/configs-stage.json",
+      "/content/shmehta/shmehta-t-citi/configs-dev:/configs-dev.json",
+      "/content/shmehta/shmehta-t-citi/redirects:/redirects.json",
+      "/content/shmehta/shmehta-t-citi/placeholders:/placeholders.json",
+      "/content/shmehta/shmehta-t-citi/products/recommended-products:/products/recommended-products.json",
+      "/content/shmehta/shmehta-t-citi/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/shmehta/shmehta-t-citi/images/products/:/images/products/"
     ],
     "includes": [
-      "/content/citisignal-one",
+      "/content/shmehta/shmehta-t-citi",
       "/content/dam/citisignal/images/products/"
     ]
 }
